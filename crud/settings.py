@@ -28,6 +28,10 @@ DEBUG = True
 # ALLOWED_HOSTS = ['web-production-bd820.up.railway.app']
 ALLOWED_HOSTS = ['*']
 
+CSRF_TRUSTED_ORIGINS = [
+    'https://web-production-bd820.up.railway.app'
+]
+
 
 # Application definition
 
