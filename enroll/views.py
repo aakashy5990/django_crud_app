@@ -4,7 +4,7 @@ from .models import User
 from django.contrib import messages
 
 # Create your views here.
-def addanddata(request):
+def index(request):
     if request.method=="POST":
         fm = StudentRegistration(request.POST)
         if fm.is_valid():
